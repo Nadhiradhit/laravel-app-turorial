@@ -2,7 +2,9 @@
 export default {
   content: ['./resources/**/*.blade.php'],
   theme: {
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [
     require("daisyui")
