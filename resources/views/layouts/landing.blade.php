@@ -9,8 +9,8 @@
 </head>
 <body>
 
-    <x-navbar-landing/>
-
+    <x-navbar/>
     @yield('content')
+    
 </body>
 </html>
