@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\LandingController;
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,4 +19,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/landing', [LandingController::class, 'index']);
+Route::get('/landing', [LandingController::class, 'index'])->name('$home');
+Route::get('/profile', [ProfileController::class, 'index'])->name('$profile');

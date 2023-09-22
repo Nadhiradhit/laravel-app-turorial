@@ -12,7 +12,8 @@ class LandingController extends Controller
 
         $welcomeMessage = 'Halo Apakabar Semuanya!';
 
+        $data['welcomeMessage'] = $welcomeMessage;
 
-        return view ('landing.index');
+        return view ('landing.index', $data);
     }
 }
