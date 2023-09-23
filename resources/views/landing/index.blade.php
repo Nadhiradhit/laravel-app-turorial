@@ -3,7 +3,6 @@
 @section('title', 'Dashboard')
 
 @section('content')
-
     <section id="dash">
         <div class="w-full h-[20rem] mt-6">
             <div class="mx-20">
@@ -20,7 +19,7 @@
                                 children, with the food earning such an iconic status in our culture that kids will often dress
                                 up as warm, cheesy loaf for Halloween.
                             </p>
-                            <x-button/>
+                            <x-button href="url('https://www.youtube.com/@nadhiradhit');"> </x-button>
                         </article>
                         </div>
                     </div>
@@ -32,9 +31,9 @@
     <section id="personal-brand">
         <div class="w-full my-6">
             <div class="mx-5">
-                <div class="bg-white">
+                <div class="">
                     <div class="mx-auto max-w-2xl px-4 py-[22rem] sm:px-6 sm:py-[16rem] lg:py-24 lg:max-w-7xl lg:px-8">
-                    <h1 class="font-bold text-2xl text-center text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">My Personal Branding</h1>
+                    <h1 class="font-bold text-2xl text-center">My Personal Branding</h1>
                     <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">
                         <div class="group relative">
                         <div class="aspect-h-1 aspect-w-1 w-full h-96 overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
@@ -42,7 +41,7 @@
                         </div>
                         <div class="mt-4 flex justify-between">
                             <div>
-                            <h3 class="text-md text-slate-800">
+                            <h3 class="text-md">
                                 <a href="#">
                                 <span aria-hidden="true" class="absolute inset-0"></span>
                                 Programming
@@ -58,7 +57,7 @@
                             </div>
                             <div class="mt-4 flex justify-between">
                             <div>
-                                <h3 class="text-md text-slate-800">
+                                <h3 class="text-md">
                                 <a href="#">
                                     <span aria-hidden="true" class="absolute inset-0"></span>
                                     Editor

@@ -16,4 +16,9 @@ class LandingController extends Controller
 
         return view ('landing.index', $data);
     }
+
+    public function infoCampus(){
+
+        return view('landing.info-campus');
+    }
 }

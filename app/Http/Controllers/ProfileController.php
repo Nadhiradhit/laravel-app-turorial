@@ -10,7 +10,7 @@ class ProfileController extends Controller
     public function index(){
 
         $nama = "Nadhir Adhitya Zhalifunnas";
-        $umur = "20 Tahun";
+        $umur = 20;
         $tempat= "Bogor";
         $hobi = "Basketball";
         

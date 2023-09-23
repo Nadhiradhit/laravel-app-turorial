@@ -20,4 +20,5 @@ Route::get('/', function () {
 });
 
 Route::get('/landing', [LandingController::class, 'index'])->name('$home');
+Route::get('/landing/info-campus', [LandingController::class, 'infoCampus'])->name('$infoCampus');
 Route::get('/profile', [ProfileController::class, 'index'])->name('$profile');

@@ -3,7 +3,10 @@ export default {
   content: ['./resources/**/*.blade.php'],
   theme: {
     extend: {
-      
+      fontFamily:{
+        'plusJakarta': ['Plus Jakarta Sans'],
+        'dancingText': ['Dancing Script'],
+      },
     },
   },
   plugins: [
@@ -11,7 +14,7 @@ export default {
     require("@tailwindcss/typography")
   ],
   daisyui: {
-    themes: ["light", "dark", "cupcake"],
+    themes: ["light", "night"],
   },
 }
 
